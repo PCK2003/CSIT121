@@ -14,7 +14,7 @@ h2 { color: green; }
 .list2 { font-family: "Gill Sans"; }
 .link a { text-decoration: none; }
 main p { color :lightcoral }
-footer { background-image: url(koreanheart.gif);
+footer { background-image: url(images/koreanheart.gif);
          background-repeat: no-repeat;
         background-position: left center; 
         background-size: 5% 80%; 
