@@ -1,0 +1,23 @@
+body { background-color: lightseagreen;
+    color: pink;
+    font-family: "Times New Roman", serif;
+    text-align: center; }
+h1 {color: green;
+    font-family: Georgia;
+    text-shadow: 4px 4px 6px black;  }
+h2 { color: green; }
+#feature {font-weight: bold;
+        font-family: Kelson-Sans;
+        font-size: 3.5em}
+.list { font-family: serif;
+    color: orange; }
+.list2 { font-family: "Gill Sans"; }
+.link a { text-decoration: none; }
+main p { color :lightcoral }
+footer { background-image: url(koreanheart.gif);
+         background-repeat: no-repeat;
+        background-position: left center; 
+        background-size: 5% 80%; 
+        border: 4px dotted;
+        border-radius: 20px;}
+header { background-image: linear-gradient(to bottom, pink, lightseagreen); }
