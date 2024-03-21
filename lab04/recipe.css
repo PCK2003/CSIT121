@@ -1,0 +1,42 @@
+body { background-color: lightseagreen;
+    color: pink;
+    font-family: "Times New Roman", serif;
+    text-align: center; }
+h1 {color: green;
+    font-family: Georgia;
+    text-shadow: 4px 4px 6px black;  }
+h2 { color: green; }
+.title {font-weight: bold;
+        font-family: Kelson-Sans;
+        font-size: 3.5em}
+.list { font-family: serif;
+    color: lightseagreen; }
+.list2 { font-family: "Gill Sans"; }
+.link a { text-decoration: none; }
+main p { color :lightcoral }
+footer { background-image: url(images/koreanheart.gif);
+         background-repeat: no-repeat;
+        background-position: left center; 
+        background-size: 8% 70%; 
+        border: 4px dotted;
+        border-radius: 20px;}
+footer a:link { color: pink; }
+footer a:visited { color: orange; }
+footer a:hover { color: lightblue; }
+header { background-image: linear-gradient(to bottom, pink, lightseagreen); }
+#wrapper {margin-left: auto;
+          margin-right: auto;
+          width: 80%; }
+.div1 { width: 40%;
+        height: 20%;
+        background-color: pink;
+        color: lightseagreen;
+        border: 3px ridge #000000;
+        padding: 36.5px; }
+.div2 {width: 55%;
+    height: 20%;
+    background-color: pink;
+    color: lightseagreen;
+    border: 3px ridge #000000;
+    padding: 5px; }
+.split { display: flex; ;}
