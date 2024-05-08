@@ -1,0 +1,96 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+<title>Lab Eight</title>
+<meta charset="utf-8">
+<link href="forms.css" rel="stylesheet">
+</head>
+
+<body>
+<h1>Using Forms</h1>
+<br>
+<p>Welcome to my page on HTML form elements. Here you will learn about various types 
+    of form elements and what they can be used to achieve. Listed below are the
+    HTML forms elements that will be discussed.
+</p>
+<ul>
+    <li>Select Element</li>
+    <li>Option Element</li>
+    <li>Lable Element</li>
+    <li>Input Element</li>
+    <li>Textarea Element</li>
+</ul>
+<br><br>
+<h2>The Select and Option Element:</h2>
+<p>The select element, or select list, is a form element which allows users to select 
+    a single value from a list of values. These are commonly refered to as drop-down 
+    boxes or drop-down lists. This element is useful in providing pre-designated 
+    choices to users regarding some sort of query such as their insurance provider. These pre-designated choices are created 
+    using the option element which contain the potential choices. Neither of these elements 
+    are void tags. The size attribute can be used to decide how many options will be displayed on
+    screen without clicking the form. An example has been provided below.
+</p>
+<form method="get">
+    <fieldset>
+     <legend>Select Example</legend>
+     <select size="1" name="selectex">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+        <option value="option4">Option 4</option>
+        <option value="option5">Option 5</option>
+      </select>
+    </fieldset>
+</form>
+<br><br>
+<h2>The Lable Element:</h2>
+<p>The lable element is an element which assists with accessibility.
+    You might have noticed in the prior example the words "Select Example" were written besides
+    the select form; this is an example of the form element. Take a look at another example provided
+    below. The words "First Name" is the lable created for the form below. This element is especially usefull
+    to users who use visual assistance tools such as screen readers. 
+</p>
+<form method="get">
+    <label>First Name: <input type="text" name="fname" id="fname"></label>
+</form>
+<br><br>
+<h2>The Input Element</h2>
+<p>The input element ia a void tag that allows a variety of diffent controls to input information into a form such as text,
+     submit buttons, and check boxes. This element is great for retrieving personalized answers from users like 
+    names, emails, and addresses. It can be used to retireve multiple pre-determined choices for all that apply to a 
+    user through check boxes as well as submitting this data. An example of forms using text controls and checkbox controls
+    has been provided below. </p>
+<form>
+    <fieldset>
+        <legend>Text Control</legend>
+         Provide Address: <input type="text" name="address" id="address">
+        <input type="submit" value="Submit">
+    </fieldset>
+</form>
+<br>
+<form method="get">
+    <fieldset>
+        <legend>Check Box Control</legend>
+         Choose Your Favoite Seasons: <br>
+        <input type="checkbox" name="spting" id="spring" value="yes">
+         Spring<br>
+         <input type="checkbox" name="summer" id="summer" value="yes">
+         Summer<br>
+         <input type="checkbox" name="fall" id="fall" value="yes">
+        Fall<br>
+        <input type="checkbox" name="winter" id="winter" value="yes">
+         Winter
+    </fieldset>
+</form>
+<br><br>
+<h2>The Textarea Element</h2>
+<p>The textarea element allows a larger volume of text input from the user. This can be useful
+    for gathering comments or requests provided by the user. There are a variety of attributes 
+    available to this element as well which can assist in controling aspects like how much input 
+    a user can enter. An example has been provided below. 
+</p>
+<form>
+    Comments:
+    <textarea name="comments" id="comments" cols="45" rows="5">Enter info here</textarea>
+</form>
+</body>
